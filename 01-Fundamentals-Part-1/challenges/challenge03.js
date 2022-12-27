@@ -20,3 +20,108 @@
   § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
   GOOD LUCK 😀
  */
+
+//Data 1
+
+let dolphinsFirstScore = 96;
+let dolphinsSecondScore = 108;
+let dolphinsThirdScore = 89;
+
+let koalasFirstScore = 88;
+let koalasSecondScore = 91;
+let koalasThirdScore = 110;
+
+let dolphinsAverageScore =
+  (dolphinsFirstScore + dolphinsSecondScore + dolphinsThirdScore) / 3;
+
+let koalasAverageScore =
+  (koalasFirstScore + koalasSecondScore + koalasThirdScore) / 3;
+
+console.log(dolphinsAverageScore, koalasAverageScore);
+
+if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
+  console.log("Team Dolphins won!");
+} else if (
+  koalasAverageScore > dolphinsAverageScore &&
+  koalasAverageScore >= 100
+) {
+  console.log("Team Koalas won!");
+} else if (
+  dolphinsAverageScore === koalasAverageScore &&
+  dolphinsAverageScore >= 100 &&
+  koalasAverageScore >= 100
+) {
+  console.log("It's been a draw!");
+} else {
+  console.log("No one wins!");
+}
+
+//Data 2
+
+dolphinsFirstScore = 97;
+dolphinsSecondScore = 112;
+dolphinsThirdScore = 101;
+
+koalasFirstScore = 109;
+koalasSecondScore = 95;
+koalasThirdScore = 123;
+
+dolphinsAverageScore =
+  (dolphinsFirstScore + dolphinsSecondScore + dolphinsThirdScore) / 3;
+
+koalasAverageScore =
+  (koalasFirstScore + koalasSecondScore + koalasThirdScore) / 3;
+
+console.log(dolphinsAverageScore, koalasAverageScore);
+
+if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
+  console.log("Team Dolphins won!");
+} else if (
+  koalasAverageScore > dolphinsAverageScore &&
+  koalasAverageScore >= 100
+) {
+  console.log("Team Koalas won!");
+} else if (
+  dolphinsAverageScore === koalasAverageScore &&
+  dolphinsAverageScore >= 100 &&
+  koalasAverageScore >= 100
+) {
+  console.log("It's been a draw!");
+} else {
+  console.log("No one wins!");
+}
+
+//Data 3
+
+dolphinsFirstScore = 97;
+dolphinsSecondScore = 112;
+dolphinsThirdScore = 101;
+
+koalasFirstScore = 109;
+koalasSecondScore = 95;
+koalasThirdScore = 106;
+
+dolphinsAverageScore =
+  (dolphinsFirstScore + dolphinsSecondScore + dolphinsThirdScore) / 3;
+
+koalasAverageScore =
+  (koalasFirstScore + koalasSecondScore + koalasThirdScore) / 3;
+
+console.log(dolphinsAverageScore, koalasAverageScore);
+
+if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
+  console.log("Team Dolphins won!");
+} else if (
+  koalasAverageScore > dolphinsAverageScore &&
+  koalasAverageScore >= 100
+) {
+  console.log("Team Koalas won!");
+} else if (
+  dolphinsAverageScore === koalasAverageScore &&
+  dolphinsAverageScore >= 100 &&
+  koalasAverageScore >= 100
+) {
+  console.log("It's been a draw!");
+} else {
+  console.log("No one wins!");
+}

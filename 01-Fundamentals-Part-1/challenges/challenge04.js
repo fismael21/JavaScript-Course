@@ -18,3 +18,38 @@
   § Value X is between 50 and 300, if it's >= 50 && <= 300 😉
   GOOD LUCK 😀
  */
+
+//Data 1
+
+let stevenBill = 275;
+let tip =
+  stevenBill <= 300 && stevenBill >= 50 ? stevenBill * 0.15 : stevenBill * 0.2;
+
+console.log(
+  `The bill value was ${stevenBill}, the tip was ${tip}, and the total value ${
+    stevenBill + tip
+  }`
+);
+
+//Data 2
+stevenBill = 40;
+tip =
+  stevenBill <= 300 && stevenBill >= 50 ? stevenBill * 0.15 : stevenBill * 0.2;
+
+console.log(
+  `The bill value was ${stevenBill}, the tip was ${tip}, and the total value ${
+    stevenBill + tip
+  }`
+);
+
+//Data 3
+
+stevenBill = 430;
+tip =
+  stevenBill <= 300 && stevenBill >= 50 ? stevenBill * 0.15 : stevenBill * 0.2;
+
+console.log(
+  `The bill value was ${stevenBill}, the tip was ${tip}, and the total value ${
+    stevenBill + tip
+  }`
+);
