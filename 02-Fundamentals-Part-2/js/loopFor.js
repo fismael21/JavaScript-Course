@@ -1,6 +1,6 @@
 "use strict";
 
-//LOOP FOR
+//Loop for
 
 /*
 const fernando = [
@@ -24,9 +24,7 @@ for (let exercise = 1; exercise < 4; exercise++) {
 }
 
 /*
-
 //console.log(fernando);
-
 let types = [];
 
 for (let i = 0; i < fernando.length; i++) {
@@ -59,5 +57,4 @@ for (let i = 0; i < fernando.length; i++) {
   if (typeof fernando[i] === "number") break;
   console.log(fernando[i]);
 }
-
 */
